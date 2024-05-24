@@ -7,6 +7,11 @@
 
 import sys
 
+#variables
+
+name = str(sys.argv[1])
+age = int(sys.argv[2])
+
 #script
 if len(sys.argv) != 3:
     print('Usage: ./lab2d.py name age')
